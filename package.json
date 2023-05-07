@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build --configuration production",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test --configuration production"
+    "test": "ng test --configuration production",
+    "deploy": "ng deploy --base-href=/simple-app/"
   },
   "private": true,
   "dependencies": {
